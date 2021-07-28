@@ -2,7 +2,7 @@ import * as React from 'react';
 import { PropsWithChildren } from 'react';
 import { View, requireNativeComponent } from 'react-native';
 
-const GestureHandlerRootViewNative = requireNativeComponent(
+export const GestureHandlerRootViewNative = requireNativeComponent(
   'GestureHandlerRootView'
 );
 
